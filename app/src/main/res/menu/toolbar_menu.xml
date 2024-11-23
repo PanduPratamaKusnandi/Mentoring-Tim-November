@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_icon_Induktif"
+        android:icon="@drawable/baseline_emoji_events_24"
+        android:title="Induktif"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/action_icon_Deduktif"
+        android:icon="@drawable/baseline_extension_24"
+        android:title="Deduktif"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/action_icon_Bias"
+        android:icon="@drawable/baseline_equalizer_24"
+        android:title="Bias"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+</menu>

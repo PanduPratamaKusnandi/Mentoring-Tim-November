@@ -4,5 +4,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="nav_icon_color">#FFFFFF</color>
     <color name="nav_text_color">#FFFFFF</color>
+    <color name="toolbar_color_1">#FF5252</color>
+    <color name="toolbar_color_2">#033AE0</color>
+    <color name="toolbar_color_3">#66BB6A</color>
+
 
 </resources>

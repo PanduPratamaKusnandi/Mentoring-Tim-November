@@ -4,38 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="#DDDFE0">
 
-
-    <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/materialToolbar4"
-        android:layout_width="89dp"
-        android:layout_height="89dp"
-        android:background="@drawable/rectangle_outline"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="93dp" />
-
-    <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/materialToolbar4"
-        android:layout_width="89dp"
-        android:layout_height="89dp"
-        android:background="@drawable/rectangle_outline"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="93dp" />
-
-    <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/materialToolbar4"
-        android:layout_width="89dp"
-        android:layout_height="89dp"
-        android:background="@drawable/rectangle_outline"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="296dp"
-        tools:layout_editor_absoluteY="93dp" />
+    <include
+        layout="@layout/bottomnavigationheader"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
     <TextView
@@ -44,9 +19,11 @@
         android:layout_height="wrap_content"
         android:text="   Mari Uji Tingkat Pemahaman Induktif, Deduktif,dan Bias\n
                       Anda Bersama AIcandemy !"
-        android:textColor="#7E7E7E"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="347dp" />
+        android:textColor="#2C2C2C"
+        app:layout_constraintBottom_toTopOf="@+id/editTextMessage"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.509"
+        tools:layout_editor_absoluteX="30dp" />
 
     <EditText
         android:id="@+id/editTextMessage"
@@ -65,27 +42,25 @@
 
     <Button
         android:id="@+id/buttonSend"
-        android:layout_width="51dp"
-        android:layout_height="56dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:backgroundTint="#033AE0"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/editTextMessage"
         app:layout_constraintTop_toTopOf="@+id/editTextMessage"
         app:layout_constraintVertical_bias="0.541"
-        tools:layout_editor_absoluteX="332dp" />
+        tools:layout_editor_absoluteX="335dp" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="51dp"
-        android:layout_height="55dp"
-        android:rotation="180"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="@+id/buttonSend"
         app:layout_constraintEnd_toEndOf="@+id/buttonSend"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/buttonSend"
         app:layout_constraintTop_toTopOf="@+id/buttonSend"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/baseline_expand_circle_down_24" />
+        app:srcCompat="@drawable/paper_plane__2_" />
 
     <include
         layout="@layout/bottomnavigationview_main"
@@ -93,6 +68,97 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Induktif"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        tools:layout_editor_absoluteX="49dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar2"
+        android:layout_width="89dp"
+        android:layout_height="89dp"
+        android:background="@drawable/toolbar_background_2"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar3"
+        android:layout_width="89dp"
+        android:layout_height="89dp"
+
+        android:background="@drawable/toolbar_background_3"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Deduktif"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        tools:layout_editor_absoluteX="180dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Bias"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:layout_editor_absoluteX="328dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar1"
+        android:layout_width="89dp"
+        android:layout_height="89dp"
+        android:background="@drawable/toolbar_background_1"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/materialToolbar3"
+        app:layout_constraintStart_toStartOf="@+id/materialToolbar3"
+        app:layout_constraintTop_toTopOf="@+id/materialToolbar3"
+        app:srcCompat="@drawable/baseline_equalizer_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar1"
+        app:layout_constraintEnd_toEndOf="@+id/materialToolbar1"
+        app:layout_constraintStart_toStartOf="@+id/materialToolbar1"
+        app:layout_constraintTop_toTopOf="@+id/materialToolbar1"
+        app:srcCompat="@drawable/baseline_extension_24" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="49dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/materialToolbar2"
+        app:layout_constraintStart_toStartOf="@+id/materialToolbar2"
+        app:layout_constraintTop_toTopOf="@+id/materialToolbar2"
+        app:srcCompat="@drawable/baseline_emoji_events_24" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
