@@ -4,63 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DDDFE0">
-
-    <include
-        layout="@layout/bottomnavigationheader"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+    android:background="@color/white">
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
         android:text="   Mari Uji Tingkat Pemahaman Induktif, Deduktif,dan Bias\n
                       Anda Bersama AIcandemy !"
-        android:textColor="#2C2C2C"
+        android:textColor="@color/color_baru"
         app:layout_constraintBottom_toTopOf="@+id/editTextMessage"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.509"
-        tools:layout_editor_absoluteX="30dp" />
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp" />
 
     <EditText
         android:id="@+id/editTextMessage"
-        android:layout_width="360dp"
-        android:layout_height="56dp"
-        android:layout_marginBottom="104dp"
+        android:layout_width="102dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="100dp"
         android:background="@drawable/rectangle_outline"
-        android:hint="Ketik pesan di sini..."
-        android:inputType="text"
         android:padding="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
         app:layout_constraintMarginBottom="16dp"
         app:layout_constraintMarginStart="16dp"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/buttonSend"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:backgroundTint="#033AE0"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextMessage"
-        app:layout_constraintTop_toTopOf="@+id/editTextMessage"
-        app:layout_constraintVertical_bias="0.541"
-        tools:layout_editor_absoluteX="335dp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="20dp"
-        android:layout_height="40dp"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonSend"
-        app:layout_constraintEnd_toEndOf="@+id/buttonSend"
-        app:layout_constraintStart_toStartOf="@+id/buttonSend"
-        app:layout_constraintTop_toTopOf="@+id/buttonSend"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/paper_plane__2_" />
 
     <include
         layout="@layout/bottomnavigationview_main"
@@ -68,97 +40,177 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="413dp"
+        android:layout_height="182dp"
+        android:background="@drawable/toolbar_background_1"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-50dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar2"
+        android:layout_width="47dp"
+        android:layout_height="46dp"
+        android:background="@drawable/toolbar_background_2"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="335dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/materialToolbar2"
+        app:layout_constraintStart_toStartOf="@+id/materialToolbar2"
+        app:layout_constraintTop_toTopOf="@+id/materialToolbar2"
+        app:srcCompat="@drawable/baseline_notifications_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="47dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="260dp"
+        app:layout_constraintEnd_toStartOf="@+id/materialToolbar2"
+        app:srcCompat="@drawable/baseline_account_circle_24"
+        tools:layout_editor_absoluteY="43dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Induktif"
+        android:text="Topik AIcademy"
+        android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        tools:layout_editor_absoluteX="49dp" />
-
-    <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/materialToolbar2"
-        android:layout_width="89dp"
-        android:layout_height="89dp"
-        android:background="@drawable/toolbar_background_2"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="125dp" />
+        tools:layout_editor_absoluteY="169dp" />
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/materialToolbar3"
-        android:layout_width="89dp"
-        android:layout_height="89dp"
-
-        android:background="@drawable/toolbar_background_3"
+        android:layout_width="101dp"
+        android:layout_height="66dp"
+        android:background="@drawable/rectangle_outline"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="296dp"
-        tools:layout_editor_absoluteY="125dp" />
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="224dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar8"
+        android:layout_width="101dp"
+        android:layout_height="66dp"
+        android:background="@drawable/rectangle_outline"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar9"
+        android:layout_width="101dp"
+        android:layout_height="66dp"
+        android:background="@drawable/rectangle_outline"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="224dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="36dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar9"
+        app:layout_constraintEnd_toEndOf="@+id/materialToolbar9"
+        app:layout_constraintStart_toStartOf="@+id/materialToolbar9"
+        app:layout_constraintTop_toTopOf="@+id/materialToolbar9"
+        app:srcCompat="@drawable/baseline_extension_24" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="36dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar8"
+        app:layout_constraintEnd_toEndOf="@+id/materialToolbar8"
+        app:layout_constraintStart_toStartOf="@+id/materialToolbar8"
+        app:layout_constraintTop_toTopOf="@+id/materialToolbar8"
+        app:srcCompat="@drawable/baseline_language_24" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="36dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/materialToolbar3"
+        app:layout_constraintStart_toStartOf="@+id/materialToolbar3"
+        app:layout_constraintTop_toTopOf="@+id/materialToolbar3"
+        app:layout_constraintVertical_bias="0.482"
+        app:srcCompat="@drawable/baseline_lightbulb_24" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Deduktif"
+        android:text="Induktif"
+        android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        tools:layout_editor_absoluteX="180dp" />
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar8"
+        tools:layout_editor_absoluteX="54dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:text="Deduktif"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar9"
+        tools:layout_editor_absoluteX="178dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="Bias"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        tools:layout_editor_absoluteX="328dp" />
-
-    <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/materialToolbar1"
-        android:layout_width="89dp"
-        android:layout_height="89dp"
-        android:background="@drawable/toolbar_background_1"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="125dp" />
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar3"
+        tools:layout_editor_absoluteX="323dp" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="49dp"
-        android:layout_height="53dp"
-        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar3"
-        app:layout_constraintEnd_toEndOf="@+id/materialToolbar3"
-        app:layout_constraintStart_toStartOf="@+id/materialToolbar3"
-        app:layout_constraintTop_toTopOf="@+id/materialToolbar3"
-        app:srcCompat="@drawable/baseline_equalizer_24" />
+        android:id="@+id/imageView7"
+        android:layout_width="43dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextMessage"
+        app:layout_constraintTop_toTopOf="@+id/editTextMessage"
+        app:srcCompat="@drawable/logo_kotak___no_text"
+        tools:layout_editor_absoluteX="292dp" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="49dp"
-        android:layout_height="53dp"
-        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar1"
-        app:layout_constraintEnd_toEndOf="@+id/materialToolbar1"
-        app:layout_constraintStart_toStartOf="@+id/materialToolbar1"
-        app:layout_constraintTop_toTopOf="@+id/materialToolbar1"
-        app:srcCompat="@drawable/baseline_extension_24" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="49dp"
-        android:layout_height="53dp"
-        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar2"
-        app:layout_constraintEnd_toEndOf="@+id/materialToolbar2"
-        app:layout_constraintStart_toStartOf="@+id/materialToolbar2"
-        app:layout_constraintTop_toTopOf="@+id/materialToolbar2"
-        app:srcCompat="@drawable/baseline_emoji_events_24" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat With Ai"
+        android:textColor="@color/black"
+        android:textSize="7dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="600dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

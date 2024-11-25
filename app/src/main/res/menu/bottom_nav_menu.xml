@@ -2,14 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/home"
-        android:icon="@drawable/baseline_dashboard_24"
+        android:icon="@drawable/home"
         android:title="Home"/>
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/baseline_chat_24"
+        android:title="Chat AI"/>
     <item
         android:id="@+id/search"
         android:icon="@drawable/baseline_class_24"
         android:title="Riwayat"/>
     <item
         android:id="@+id/profile"
-        android:icon="@drawable/baseline_display_settings_24"
+        android:icon="@drawable/baseline_settings_24"
         android:title="Pengaturan"/>
 </menu>
