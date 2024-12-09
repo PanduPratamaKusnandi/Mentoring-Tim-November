@@ -6,10 +6,10 @@ Repository project capstone Bangkit 2024 Cloud Computing
 
 
 ## Cloud Computing Schedule
-|  Task  |        Week 1      |       Week 2                       |       Week 3       |       Week 4         |               Week 5         |
-| :----: | :----------------: | :--------------------------------: | :----------------: | :------------------: | :--------------------------: |
-| Task 1 | Designing Database | Create Project with Express.js     | Develop REST API, Deploying REST API      | Integration Machine Learning |
-| Task 2 | Create Database    | Manage and SetUp Server            |     and  REST API Endpoint Testing        |                              |
+|  Task  |        Week 1      |       Week 2                       |       Week 3              Week 4         |               Week 5         |
+| :----: | :----------------: | :--------------------------------: | :----------------------------------:     | :--------------------------: |
+| Task 1 | Designing Database | Create Project with Express.js     | Develop REST API, Deploying REST API     | Integration Machine Learning |
+| Task 2 | Create Database    | Manage and SetUp Server            |     and  REST API Endpoint Testing       |                              |
 
 
 ## Cloud Computing Architecture
