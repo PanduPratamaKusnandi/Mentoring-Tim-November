@@ -1,46 +1,33 @@
-# [Nama Aplikasi/Proyek]
+# AIcademy - The Most AI Tools For Education
 
-## [Deskripsi Proyek]
+## Bangkit Capstone Project 2024
+Team ID	Capstone	: C242-PS281
+![Logo Panjang - Text](https://github.com/user-attachments/assets/7326fc08-e7e6-4865-9c06-997d1b0724b0)
 
-[Tambahkan deskripsi singkat tentang proyek ini, tujuan, dan teknologi yang digunakan.]
 
-## Tim Kami
+## Team Members
 
-|              Nama              | Bangkit-ID |   Learning Path    |
-| :----------------------------: | :--------: | :----------------: |
-| Nama Anggota 1                 | ID123456   | Machine Learning   |
-| Nama Anggota 2                 | ID123457   | Mobile Development |
-| Nama Anggota 3                 | ID123458   | Cloud Computing    |
+| **Name**                          | **Bangkit-ID** | **Learning Path**          |
+| --------------------------------- | -------------- | -------------------------- |
+| Argya Hasya Madaniy Sumanang      | M011B4KY0619   | Machine Learning           |
+| Margaretyasari Perdana            | M002B4KX2404   | Machine Learning           |
+| Fajria Ulumin Nafiah              | M296B4KX1377   | Machine Learning           |
+| Pandu Pratama Kusnandi            | A764B4KY3477   | Mobile Development         |
+| Elman Sidik                       | A547B4NY1248   | Mobile Development         |
+| Mohammad Putra Fauzan Fatah       | C547B4NY2574   | Cloud Computing            |
+| Muhamad Zidan                     | C547B4NY2669   | Cloud Computing            |
 
-## Tentang Proyek
 
-[Tuliskan deskripsi detail proyek, termasuk apa yang dilakukan aplikasi dan masalah yang diselesaikan.]
+## About Project
 
-## Dokumentasi
+This project is an educational AI platform that delivers a personalized learning experience to students through a rule-based virtual mentor agent. 
+The AI Mentor acts as an interactive tutor, helping students understand material, answering questions, providing personalized guidance, and tracking their progress
 
-[Tambahkan tangkapan layar atau deskripsi dokumentasi terkait proyek.]
 
-![Contoh Gambar](#)
+## Repository
 
-## Arsitektur Sistem
-
-[Tambahkan diagram arsitektur sistem jika ada.]
-
-![SystemArchitecture](#)
-
-## Repositori
-
-|    Nama Branch    |                                      Link Branch                                      |
-| :---------------: | :----------------------------------------------------------------------------------: |
-| Mobile Development | [MD Branch](#)                                                                      |
-| Cloud Computing    | [CC Branch](#)                                                                      |
-| Machine Learning   | [ML Branch](#)                                                                      |
-
-## Dokumentasi API
-Endpoint Dokumentasi API: [Endpoint](#)
-
-## Dataset
-Link Dataset yang Digunakan dalam Proyek: - [Dataset 1](#)
-
-## Desain UI/UX
-- Link Design: [Prototype](#)
+| **Name Branch**      | **Link Branch**                                                                     |
+| -------------------- | ------------------------------------------------------------------------------------|
+| Mobile Development   | [MD Branch](https://github.com/PanduPratamaKusnandi/Mentoring-Tim-November/tree)    |
+| Cloud Computing      | [CC Branch](https://github.com/PanduPratamaKusnandi/Mentoring-Tim-November/tree)    |
+| Machine Learning     | [ML Branch](https://github.com/PanduPratamaKusnandi/Mentoring-Tim-November/tree/ML) |
