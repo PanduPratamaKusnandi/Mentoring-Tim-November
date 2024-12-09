@@ -26,8 +26,8 @@ The AI Mentor acts as an interactive tutor, helping students understand material
 
 ## Repository
 
-| **Name Branch**      | **Link Branch**                                                                     |
-| -------------------- | ------------------------------------------------------------------------------------|
-| Mobile Development   | [MD Branch](https://github.com/PanduPratamaKusnandi/Mentoring-Tim-November/tree)    |
-| Cloud Computing      | [CC Branch](https://github.com/PanduPratamaKusnandi/Mentoring-Tim-November/tree)    |
-| Machine Learning     | [ML Branch](https://github.com/PanduPratamaKusnandi/Mentoring-Tim-November/tree/ML) |
+| **Name Branch**      | **Link Branch**                                                                        |
+| -------------------- | ---------------------------------------------------------------------------------------|
+| Mobile Development   | [MD Branch](https://github.com/PanduPratamaKusnandi/Mentoring-Tim-November/tree/MD)    |
+| Cloud Computing      | [CC Branch](https://github.com/PanduPratamaKusnandi/Mentoring-Tim-November/tree/CC)    |
+| Machine Learning     | [ML Branch](https://github.com/PanduPratamaKusnandi/Mentoring-Tim-November/tree/ML)    |
