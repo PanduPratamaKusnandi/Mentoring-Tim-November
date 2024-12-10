@@ -10,6 +10,10 @@ Repository proyect capstone Bangkit 2024 - Mobile Development.
 | :----: | :------------: | :----------------------------: | :----------------: | :----------------: |
 | Task 1 | UI Design      | System Planning Design         | App Development    | Testing            | 
 
+## Wireframe Design App
+https://www.figma.com/design/WD4ArXuOZR4suzzNcIwIgt/Untitled?node-id=22-321&node-type=canvas&t=GEUe4AKidd5KNyIR-0
+
+
 
 ## Architecture
 - [Jenis Arsitektur, Contoh: MVVM/MVC]
