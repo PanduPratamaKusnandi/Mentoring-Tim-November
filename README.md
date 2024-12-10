@@ -11,12 +11,9 @@ Repository project capstone Bangkit 2024 - Machine Learning.
 | Task 1 | Collect Dataset      | Training and Testing     | HyperParameter Tuning    | Application Integration   | 
 | Task 2 | Create Model         | Check and Evaluate       | Check and Evaluate       |                           | 
 
-## DESCRIPTION  
-[Deskripsi singkat tentang model apa yang dilakukan proyek ini, tujuannya, dan manfaatnya.]  
-
 ## METHOD  
-[Metode atau pendekatan yang digunakan, misalnya: "Regression with a Deep Neural Network (DNN)"]  
-
+- Build Simple ChatBot with Bi-Directional LSTM method
+  
 ## TOOLS  
 - TensorFlow  
 - Kaggle  
