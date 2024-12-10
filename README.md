@@ -18,14 +18,13 @@ Repository project capstone Bangkit 2024 - Machine Learning.
 [Metode atau pendekatan yang digunakan, misalnya: "Regression with a Deep Neural Network (DNN)"]  
 
 ## TOOLS  
-- [Alat atau teknologi 1]  
-- [Alat atau teknologi 2]  
-- [Alat atau teknologi lainnya]  
+- TensorFlow  
+- Kaggle  
+- VertexAI 
 
 ## DATASETS  
 Data digunakan dari sumber berikut:  
-- [Dataset 1](#link-dataset-1)  
-- [Dataset 2](#link-dataset-2)  
+- [HuggingFace's IndoQA] https://huggingface.co/datasets/jakartaresearch/indoqa  
 
 ## HOW TO [Gunakan atau Prediksi]  
 [Penjelasan tentang bagaimana cara menggunakan model atau aplikasi, misalnya input yang diperlukan untuk membuat prediksi.]  
