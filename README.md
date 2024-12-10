@@ -26,11 +26,11 @@ Repository project capstone Bangkit 2024 - Machine Learning.
 Data digunakan dari sumber berikut:  
 - [HuggingFace's IndoQA] https://huggingface.co/datasets/jakartaresearch/indoqa  
 
-## HOW TO [Gunakan atau Prediksi]  
-[Penjelasan tentang bagaimana cara menggunakan model atau aplikasi, misalnya input yang diperlukan untuk membuat prediksi.]  
-Contoh:  
-- [Input 1]  
-- [Input 2]  
+## TRAINING STEP
+ 
+- Clean and Pre-Processing IndoQA dataset (Removing Missing Values, Applying Tokenizer)
+- Build LSTM Layer
+- Using Adam Optimizer and Sparse Categorical Crossentropy Loss Function with 200 epochs  
 
 ## DEPLOYMENT  
 [Deskripsi pendek bagaimana proyek ini dideploy, platform yang digunakan, atau teknologi deployment seperti TensorFlow Lite, Docker, dll.]  
