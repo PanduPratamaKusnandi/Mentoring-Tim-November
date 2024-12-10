@@ -8,7 +8,7 @@ Repository project capstone Bangkit 2024 - Machine Learning.
 ## Machine Learning Schedule  
 |  Task  |        Week 1        |           Week 2         |        Week 3            |        Week 4             |     
 | :----: | :------------------: | :----------------------: | :----------------------: | :-----------------------: | 
-| Task 1 | Collect Dataset      | Training and Testing     | HyperParameter Tuning    | Application Integration   | 
+| Building Chatbot | Collect Dataset      | Training and Testing     | HyperParameter Tuning    | Application Integration   | 
 | Task 2 | Create Model         | Check and Evaluate       | Check and Evaluate       |                           | 
 
 ## METHOD  
