@@ -15,9 +15,10 @@ Repository project capstone Bangkit 2024 - Machine Learning.
 - Build Simple ChatBot with Bi-Directional LSTM method
   
 ## TOOLS  
-- TensorFlow  
-- Kaggle  
-- VertexAI 
+- TensorFlow [Training Chatbot, Personality Test] 
+- Kaggle [Training Chatbot]
+- VertexAI [Hand-written digits Calculator]
+- ScikitLearn [Career Prediction]
 
 ## DATASETS  
 Data digunakan dari sumber berikut:  
@@ -28,9 +29,6 @@ Data digunakan dari sumber berikut:
 - Clean and Pre-Processing IndoQA dataset (Removing Missing Values, Applying Tokenizer)
 - Build LSTM Layer
 - Using Adam Optimizer and Sparse Categorical Crossentropy Loss Function with 200 epochs  
-
-## DEPLOYMENT  
-[Deskripsi pendek bagaimana proyek ini dideploy, platform yang digunakan, atau teknologi deployment seperti TensorFlow Lite, Docker, dll.]  
 
 ## REFERENCES  
 - [Referensi 1](#link-referensi-1)  
