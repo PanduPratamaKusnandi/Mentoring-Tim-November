@@ -13,7 +13,8 @@ Repository project capstone Bangkit 2024 Cloud Computing
 
 
 ## Cloud Computing Architecture
-![CloudArchitecture](./path-to-image.png)
+![CloudArchitecture](./![WhatsApp Image 2024-12-10 at 13 28 06_450b346e](https://github.com/user-attachments/assets/90c3831f-2732-41e2-99b6-e5a69c19ce21)
+)
 <br>
 
 ## API Description
