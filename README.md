@@ -22,6 +22,7 @@ This repository contains the API source code developed by the AIcademy team to i
 
 ### API Endpoint Documentation
 [Dokumentasi API](https://example.com/docs)
+<br>
 We utilize this API because it is simple to implement and cost-free, ensuring it doesn't add to the system's workload or incur additional charges on the Google Cloud Platform. And secure our API with JWT tokens and OTP verification to ensure that only authorized users can access it. The tokens are provided in the `Bearer` format.
 
 
