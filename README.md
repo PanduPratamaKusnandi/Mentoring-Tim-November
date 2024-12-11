@@ -13,30 +13,36 @@ Repository proyect capstone Bangkit 2024 - Mobile Development.
 ## Wireframe Design App
 https://www.figma.com/design/WD4ArXuOZR4suzzNcIwIgt/Untitled?node-id=22-321&node-type=canvas&t=GEUe4AKidd5KNyIR-0
 
-
-
 ## Architecture
 - [Jenis Arsitektur, Contoh: MVVM/MVC]
 ![ArchitectureImage](./path-to-architecture-image.png)
 
 ## Features
-- [Fitur 1]
-- [Fitur 2]
-- [Fitur 3]
-- [Fitur lainnya]
+- Autentikasi (Login, Register, OTP Security, Reset Password)
+- Pengaturan
+- Ubah Akun
+- Notifikasi
+- AI Chat Bot
+- Prediksi Karir
+- Kuis Matematika
+- Tes Kepribadian
 
 ## Libraries and Dependencies
-- [Library/Framework 1]
-- [Library/Framework 2]
-- [Library/Framework lainnya]
+- Retrofit
+- Material
+- View Pager
+- Glide
 
 ## Link to Download Application
 Download aplikasi di sini:  
 [Download APK](#)
 
 ## Installation
-### Prerequisites
-- [Software yang dibutuhkan, Contoh: Android Studio]
+### System Requirement
+- Ram 4 Gb / Disarankan 8 Gb
+- Android Versi 8 Oreo atau Lebih baru
+- Memiliki Koneksi Internet
+- Akses Penyimpanan
   
 ### Steps to Install
 1. Dapatkan [API Key atau Token](https://link-ke-tempat-api-key.com).
