@@ -13,7 +13,7 @@ Repository project capstone Bangkit 2024 Cloud Computing
 
 
 ## Cloud Computing Architecture
-![WhatsApp Image 2024-12-10 at 13 28 06_450b346e](![cloud_aicademy](https://github.com/user-attachments/assets/cdc16b67-581f-422c-829d-605e35e5d258)
+![WhatsApp Image 2024-12-10 at 13 28 06_450b346e](https://github.com/user-attachments/assets/cdc16b67-581f-422c-829d-605e35e5d258)
 )
 <br>
 
