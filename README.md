@@ -22,7 +22,9 @@ Repository project capstone Bangkit 2024 - Machine Learning.
 
 ## DATASETS  
 Data digunakan dari sumber berikut:  
-- [HuggingFace's IndoQA] https://huggingface.co/datasets/jakartaresearch/indoqa  
+- [HuggingFace's IndoQA] https://huggingface.co/datasets/jakartaresearch/indoqa
+- https://www.kaggle.com/datasets/noorsaeed/student-studeis-recommendation
+- https://www.kaggle.com/datasets/tunguz/big-five-personality-test
 
 ## TRAINING STEP
  
