@@ -23,8 +23,8 @@ Repository project capstone Bangkit 2024 - Machine Learning.
 ## DATASETS  
 Data digunakan dari sumber berikut:  
 - [HuggingFace's IndoQA] https://huggingface.co/datasets/jakartaresearch/indoqa
-- https://www.kaggle.com/datasets/noorsaeed/student-studeis-recommendation
-- https://www.kaggle.com/datasets/tunguz/big-five-personality-test
+- [Kaggle Student's Career] https://www.kaggle.com/datasets/noorsaeed/student-studeis-recommendation
+- [Kaggle Personality Test] https://www.kaggle.com/datasets/tunguz/big-five-personality-test
 
 ## TRAINING STEP
  
@@ -32,6 +32,3 @@ Data digunakan dari sumber berikut:
 - Build LSTM Layer
 - Using Adam Optimizer and Sparse Categorical Crossentropy Loss Function with 200 epochs  
 
-## REFERENCES  
-- [Referensi 1](#link-referensi-1)  
-- [Referensi 2](#link-referensi-2)  
